@@ -370,6 +370,7 @@
   display: flex;
   align-items: center;
   flex-flow: column;
+  color: #62262A;
 }
 #es-rc #es-rc-content .es-cross__single a {
   display: flex;
