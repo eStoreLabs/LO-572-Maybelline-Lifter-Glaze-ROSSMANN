@@ -40,18 +40,17 @@
   font-weight: 700;
 }
 #es-rc #es-rc-content .es-desc {
-  font-size: 25px;
+  font-size: 30px;
   color: #62262A;
   text-align: center;
   margin-block: 0 16px;
-  text-transform: uppercase;
 }
 @media (min-width: 1024px) {
   #es-rc #es-rc-content .es-title {
     font-size: 60px;
   }
   #es-rc #es-rc-content .es-desc {
-    font-size: 45px;
+    font-size: 50px;
     margin-block: 0 32px;
   }
 }
