@@ -76,11 +76,11 @@ $primary: #62262A;
 
     .es-video {
         position: relative;
-        min-height: 600px;
-        background-image: url('../images/video.png');
-        background-size: auto;
-        background-position: center;
-        background-repeat: no-repeat;
+        min-height: 703px;
+        // background-image: url('../images/video.png');
+        // background-size: auto;
+        // background-position: center;
+        // background-repeat: no-repeat;
 
         iframe {
             border: 0;
@@ -276,14 +276,15 @@ $primary: #62262A;
             height: 100%;
             display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: center;
         }
 
         &__slide-2-1 {
-            display: flex            ;
+            display: flex;
             flex-direction: column;
-            justify-content: space-around;
+            justify-content: center;
             height: 100%;
+            gap: 30px;
         }
 
         &__slide-2-2--left {
