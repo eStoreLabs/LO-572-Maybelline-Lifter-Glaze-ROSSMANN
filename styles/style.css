@@ -270,6 +270,9 @@
   #es-rc #es-rc-content .es-features__slide-1-2 {
     justify-content: center;
   }
+  #es-rc #es-rc-content .es-features__slide-1-2 .es-title {
+    margin-top: 16px;
+  }
   #es-rc #es-rc-content .es-features__slide-1-2--bottom {
     margin-inline: auto;
     width: 80%;
@@ -297,6 +300,9 @@
   }
   #es-rc #es-rc-content .es-features__slide-1-1--left {
     width: 80%;
+  }
+  #es-rc #es-rc-content .es-features__slide-1-2 .es-title {
+    margin-top: 32px;
   }
   #es-rc #es-rc-content .es-features__slide-2-2--left {
     width: 90%;

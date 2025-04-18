@@ -342,6 +342,10 @@ $primary: #62262A;
 
             &__slide-1-2 {
                 justify-content: center;
+
+                .es-title {
+                    margin-top: 16px;
+                }
             }
 
             &__slide-1-2--bottom {
@@ -382,6 +386,12 @@ $primary: #62262A;
 
             &__slide-1-1--left {
                 width: 80%;
+            }
+
+            &__slide-1-2 {
+                .es-title {
+                    margin-top: 32px;
+                }
             }
 
             &__slide-2-2--left {
