@@ -39,12 +39,6 @@ $primary: #62262a;
     margin: 0 auto;
   }
 
-  @media (min-width: 768px) {
-    img {
-      max-width: 100%;
-    }
-  }
-
   .es-title {
     color: $primary;
     text-align: center;
@@ -63,17 +57,6 @@ $primary: #62262a;
     color: $primary;
     text-align: center;
     margin-block: 0 16px;
-  }
-
-  @media (min-width: 1024px) {
-    .es-title {
-      font-size: 60px;
-    }
-
-    .es-desc {
-      font-size: 50px;
-      margin-block: 0 32px;
-    }
   }
 
   .es-video {
@@ -261,7 +244,7 @@ $primary: #62262a;
       left: 0;
       width: 100%;
       height: 100%;
-      background: url("../images/background.png") no-repeat center center;
+      background: url("../images/background.jpg") no-repeat center center;
       background-size: cover;
       opacity: 0.6;
     }
@@ -370,31 +353,6 @@ $primary: #62262a;
       }
     }
 
-    @media (min-width: 1024px) {
-      .swiper-slide {
-        padding-inline: 32px;
-      }
-
-      &__slide-1-1--left {
-        width: 80%;
-      }
-
-      &__slide-1-2 {
-        .es-title {
-          margin-top: 32px;
-        }
-      }
-
-      &__slide-2-2--left {
-        width: 90%;
-      }
-      &__slide-2-2--right {
-        .es-features__image {
-          width: 65%;
-        }
-      }
-    }
-
     .es-colors {
       padding: 16px;
       z-index: 1;
@@ -427,7 +385,7 @@ $primary: #62262a;
       }
 
       .es-color--1 {
-        background-image: url(../images/pink-drip-bg.png);
+        background-image: url(../images/pink-drip-bg.jpg);
         background-size: cover;
         .es-color__name {
           color: $primary;
@@ -435,22 +393,22 @@ $primary: #62262a;
       }
 
       .es-color--2 {
-        background-image: url(../images/cherry-swirl-bg.png);
+        background-image: url(../images/cherry-swirl-bg.jpg);
         background-size: cover;
       }
 
       .es-color--3 {
-        background-image: url(../images/caramel-glow-bg.png);
+        background-image: url(../images/caramel-glow-bg.jpg);
         background-size: cover;
       }
 
       .es-color--4 {
-        background-image: url(../images/berry-haze-bg.png);
+        background-image: url(../images/berry-haze-bg.jpg);
         background-size: cover;
       }
 
       .es-color--5 {
-        background-image: url(../images/acai-glaze-bg.png);
+        background-image: url(../images/acai-glaze-bg.jpg);
         background-size: cover;
       }
       @media (min-width: 768px) {
@@ -467,12 +425,6 @@ $primary: #62262a;
           font-size: 32px;
         }
       }
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .es-features {
-      padding: 0 32px 32px 32px;
     }
   }
 
@@ -508,46 +460,46 @@ $primary: #62262a;
       &:hover .es-cross__link {
         background-color: $primary;
       }
-      &__packshot {
-        margin-bottom: 16px;
-        padding-bottom: 16px;
-        width: 80%;
-      }
-      &__img {
-        max-height: 100%;
-        transition: all 0.3s;
-      }
-      &__name {
-        line-height: inherit;
-        font-size: 24px;
-        text-transform: uppercase;
-        font-family: "Barlow Condensed", sans-serif;
-        text-align: center;
-        margin-bottom: 8px;
-        font-weight: 400;
-        color: $black;
-      }
-      &__desc {
-        text-align: center;
-        font-size: 18px;
-        margin-bottom: 32px;
-        color: $black;
-      }
-      &__link {
-        margin: 0;
-        line-height: 35px;
-        font-size: 20px;
-        background: $black;
-        color: $white;
-        text-decoration: none;
-        padding: 16px 40px;
-        font-weight: 700;
-        text-transform: uppercase;
-        text-align: center;
-        display: inline-block;
-        transition: color 0.3s;
-        width: 100%;
-      }
+    }
+    &__packshot {
+      margin-bottom: 16px;
+      padding-bottom: 16px;
+      width: 80%;
+    }
+    &__img {
+      max-height: 100%;
+      transition: all 0.3s;
+    }
+    &__name {
+      line-height: inherit;
+      font-size: 24px;
+      text-transform: uppercase;
+      font-family: "Barlow Condensed", sans-serif;
+      text-align: center;
+      margin-bottom: 8px;
+      font-weight: 400;
+      color: $black;
+    }
+    &__desc {
+      text-align: center;
+      font-size: 18px;
+      margin-bottom: 32px;
+      color: $black;
+    }
+    &__link {
+      margin: 0;
+      line-height: 35px;
+      font-size: 20px;
+      background: $black;
+      color: $white;
+      text-decoration: none;
+      padding: 16px 40px;
+      font-weight: 700;
+      text-transform: uppercase;
+      text-align: center;
+      display: inline-block;
+      transition: color 0.3s;
+      width: 100%;
     }
   }
 
@@ -567,20 +519,6 @@ $primary: #62262a;
       }
       &__desc {
         height: 7em;
-      }
-    }
-  }
-
-  @media (min-width: 1300px) {
-    .es-cross {
-      &__single {
-        min-width: 350px;
-      }
-      &__name {
-        font-size: 30px;
-      }
-      &__desc {
-        font-size: 16px;
       }
     }
   }
