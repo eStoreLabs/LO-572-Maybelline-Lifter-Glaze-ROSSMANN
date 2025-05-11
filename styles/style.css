@@ -3,7 +3,7 @@
   font-size: 16px;
   font-weight: 300;
   line-height: 1.2;
-  max-width: 1300px;
+  max-width: 982px;
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
@@ -330,11 +330,10 @@
   justify-content: center;
 }
 #es-rc #es-rc-content .es-features .es-colors .es-color {
-  padding: 54px 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
   max-width: 240px;
+  padding-bottom: 50px;
 }
 #es-rc #es-rc-content .es-features .es-colors .es-color__name {
   text-transform: uppercase;
@@ -343,6 +342,7 @@
   text-align: center;
   color: #ffffff;
   white-space: nowrap;
+  padding-block: 32px;
 }
 #es-rc #es-rc-content .es-features .es-colors .es-color--1 {
   background-image: url(../images/pink-drip-bg.png);
@@ -366,6 +366,20 @@
 #es-rc #es-rc-content .es-features .es-colors .es-color--5 {
   background-image: url(../images/acai-glaze-bg.png);
   background-size: cover;
+}
+@media (min-width: 768px) {
+  #es-rc #es-rc-content .es-features .es-colors .es-color {
+    flex: 1 1 0;
+    width: 20%;
+  }
+  #es-rc #es-rc-content .es-features .es-colors .es-color__name {
+    font-size: 24px;
+  }
+}
+@media (min-width: 992px) {
+  #es-rc #es-rc-content .es-features .es-colors .es-color__name {
+    font-size: 32px;
+  }
 }
 @media (min-width: 1024px) {
   #es-rc #es-rc-content .es-features {
@@ -406,16 +420,16 @@
 #es-rc #es-rc-content .es-cross__single:hover .es-cross__link {
   background-color: #62262a;
 }
-#es-rc #es-rc-content .es-cross__packshot {
+#es-rc #es-rc-content .es-cross__single__packshot {
   margin-bottom: 16px;
   padding-bottom: 16px;
   width: 80%;
 }
-#es-rc #es-rc-content .es-cross__img {
+#es-rc #es-rc-content .es-cross__single__img {
   max-height: 100%;
   transition: all 0.3s;
 }
-#es-rc #es-rc-content .es-cross__name {
+#es-rc #es-rc-content .es-cross__single__name {
   line-height: inherit;
   font-size: 24px;
   text-transform: uppercase;
@@ -425,13 +439,13 @@
   font-weight: 400;
   color: #000000;
 }
-#es-rc #es-rc-content .es-cross__desc {
+#es-rc #es-rc-content .es-cross__single__desc {
   text-align: center;
   font-size: 18px;
   margin-bottom: 32px;
   color: #000000;
 }
-#es-rc #es-rc-content .es-cross__link {
+#es-rc #es-rc-content .es-cross__single__link {
   margin: 0;
   line-height: 35px;
   font-size: 20px;
