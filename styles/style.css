@@ -7,8 +7,8 @@
   margin: 0 auto;
   padding: 0;
   overflow: hidden;
-  color: #000;
-  background: #fff;
+  color: #000000;
+  background: #ffffff;
 }
 #es-rc #es-rc-content * {
   box-sizing: border-box;
@@ -34,7 +34,7 @@
   }
 }
 #es-rc #es-rc-content .es-title {
-  color: #62262A;
+  color: #62262a;
   text-align: center;
   text-transform: uppercase;
   font-size: 34px;
@@ -46,7 +46,7 @@
 }
 #es-rc #es-rc-content .es-desc {
   font-size: 30px;
-  color: #62262A;
+  color: #62262a;
   text-align: center;
   margin-block: 0 16px;
 }
@@ -71,7 +71,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #es-rc #es-rc-content .es-kv__left {
   position: relative;
@@ -89,6 +90,7 @@
   font-family: "Barlow Condensed", sans-serif;
   text-transform: uppercase;
   text-align: center;
+  width: -moz-max-content;
   width: max-content;
   line-height: 60px;
 }
@@ -108,7 +110,8 @@
 }
 #es-rc #es-rc-content .es-kv__packshot--bg {
   width: 100%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 #es-rc #es-rc-content .es-kv__packshot--packCtn {
   position: absolute;
@@ -346,7 +349,7 @@
   background-size: cover;
 }
 #es-rc #es-rc-content .es-features .es-colors .es-color--1 .es-color__name {
-  color: #62262A;
+  color: #62262a;
 }
 #es-rc #es-rc-content .es-features .es-colors .es-color--2 {
   background-image: url(../images/cherry-swirl-bg.png);
@@ -390,17 +393,18 @@
   display: flex;
   align-items: center;
   flex-flow: column;
-  color: #62262A;
+  color: #62262a;
 }
 #es-rc #es-rc-content .es-cross__single a {
   display: flex;
   justify-content: center;
+  transition: all 300ms ease-in-out;
 }
 #es-rc #es-rc-content .es-cross__single:hover .es-cross__img {
   transform: scale(1.05);
 }
 #es-rc #es-rc-content .es-cross__single:hover .es-cross__link {
-  text-decoration: underline;
+  background-color: #62262a;
 }
 #es-rc #es-rc-content .es-cross__packshot {
   margin-bottom: 16px;
@@ -419,11 +423,13 @@
   text-align: center;
   margin-bottom: 8px;
   font-weight: 400;
+  color: #000000;
 }
 #es-rc #es-rc-content .es-cross__desc {
   text-align: center;
   font-size: 18px;
   margin-bottom: 32px;
+  color: #000000;
 }
 #es-rc #es-rc-content .es-cross__link {
   margin: 0;
@@ -473,6 +479,4 @@
 #es-rc #es-rc-content .es-footer {
   background-color: #000000;
   padding: 24px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
