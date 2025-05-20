@@ -1,5 +1,5 @@
 (() => {
-  if (!document.querySelector("#es-rc.es-swiper")) {
+  if (!document.querySelector("#es-rc .es-swiper.swiper-initialized")) {
     const swiper = new Swiper("#es-rc .es-swiper", {
       loop: false,
       autoHeight: false,
